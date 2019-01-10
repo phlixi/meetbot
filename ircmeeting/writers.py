@@ -490,6 +490,7 @@ html_template = textwrap.dedent('''\
     <html>
     <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>%(pageTitle)s</title>
     %(headExtra)s</head>
 
@@ -506,6 +507,7 @@ class HTML1(_BaseWriter):
     <html>
     <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>%(pageTitle)s</title>
     </head>
     <body>
